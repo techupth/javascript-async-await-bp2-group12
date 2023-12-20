@@ -33,3 +33,12 @@ let getJohnOrders = () => {
 };
 
 // Start coding here
+function onFirst(data){
+  console.log(data)
+
+}
+function onSecond(data){
+  console.log(data)
+}
+getJohnProfile().then(onFirst)
+getJohnOrders().then(onSecond)
